@@ -6,11 +6,11 @@ import InterfaceAbsractDemoVideo.Abstract.IEntity;
 
 public class Customer implements IEntity{
 	
-	int id;
-	String firstName;
-	String lastName;
-	String nationalityId;
-	LocalDate dateOfBirth;
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String nationalityId;
+	private LocalDate dateOfBirth;
 	
 	public Customer() {
 		

@@ -1,14 +1,11 @@
 package InterfaceAbsractDemoVideo;
 
 import java.time.LocalDate;
-
 import InterfaceAbsractDemoVideo.Abstract.BaseCustomerManager;
 import InterfaceAbsractDemoVideo.Concrete.NeroCustomerManager;
 import InterfaceAbsractDemoVideo.Concrete.StarbucksCustomerManager;
 
 public class Main {
-	
-	
 	
 	BaseCustomerManager customerManager = new NeroCustomerManager();
 //	Customer(int id, String firstName, String lastName, String nationalityId, LocalDate dateOfBirth)

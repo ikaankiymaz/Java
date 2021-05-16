@@ -2,12 +2,9 @@ package InterfaceAbsractDemoVideo.Abstract;
 
 import InterfaceAbsractDemoVideo.Entities.Customer;
 
-public abstract class BaseCustomerManager implements ICustomerService{
+public abstract class BaseCustomerManager implements ICustomerManager{
+	
+	public abstract void save(Customer customer);
 
-	@Override
-	public void save(Customer customer) {
-		
-		System.out.println("Saved to Database = " + customer.getFirstName());
-	}
 
 }
