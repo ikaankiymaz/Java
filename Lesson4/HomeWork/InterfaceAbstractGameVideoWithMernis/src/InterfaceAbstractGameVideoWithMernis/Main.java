@@ -21,7 +21,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		BaseCustomerManager customerManager = new PeekCustomerManager(new MernisServiceAdapter());
-		Customer customer = new Customer(1, "ÝLTERÝÞ KAAN", "KIYMAZ", "12998731774", LocalDate.of(1997, 4, 22));
+		Customer customer = new Customer(1, "ÝLTERÝÞ KAAN", "KIYMAZ", "12312312123", LocalDate.of(1995, 1, 1));
 		customerManager.save(customer);
 		
 		
